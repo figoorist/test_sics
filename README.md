@@ -1,2 +1,8 @@
-# test_sics
-See README to more info
+
+Browser: Chrome
+
+Maven
+
+TestNG
+
+Параметры теста и запуск - testng.xml
