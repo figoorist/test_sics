@@ -1,17 +1,14 @@
 package ru.comp;
 
 import org.openqa.selenium.support.PageFactory;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import ru.comp.pages.HomePage;
 import ru.comp.pages.MyKasperskyPage;
+import ru.comp.steps.HomePageSteps;
 import ru.comp.steps.MyKasperskyPageSteps;
-
-import java.util.ArrayList;
 
 public class MyKasperskyTest extends TestNgTestBase {
     /** Свойство - объект стартовой страницы*/
@@ -34,19 +31,20 @@ public class MyKasperskyTest extends TestNgTestBase {
     @Test
     @Parameters({"MyKasperskyTitle"})
     public void testMyKaspersky(String MyKasperskyTitle) {
-        homepage.getMyKasperskyLink().click();
-        //Get array of tabs
-        ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
-        //Switch to last tab
-        driver.switchTo().window(tabs.get(tabs.size() - 1));
+        HomePageSteps homePageSteps = new HomePageSteps(driver);
+
+        homePageSteps.goToMyKasperskyPageStep();
         Assert.assertTrue(myKasperskyPage.getTitle().toLowerCase().contains(MyKasperskyTitle.toLowerCase()));
     }
 
+    /**
+     * Sign In failed check
+     */
     @Test
     public void testSignIn() {
         MyKasperskyPageSteps myKasperskyPageSteps = new MyKasperskyPageSteps(driver);
 
-        myKasperskyPageSteps.signIn();
+        myKasperskyPageSteps.signInStep();
         Assert.assertTrue(myKasperskyPage.getSignInCriticalInvalidEmailOrPassword().isDisplayed());
     }
 }

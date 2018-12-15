@@ -16,9 +16,9 @@ public class TestNgTestBase {
     @BeforeClass
     public void initTestSuite() {
         driver = new ChromeDriver();
-        //устанавливаем неявный таймаут ожидания для драйвера 30 секунд
+        //set wait timeout
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        //во весь экран
+        //maximize screen
         driver.manage().window().maximize();
     }
 

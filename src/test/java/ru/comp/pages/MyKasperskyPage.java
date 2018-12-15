@@ -13,23 +13,43 @@ public class MyKasperskyPage extends Page {
         super(webDriver);
     }
 
+    /**
+     * Get Sign In button
+     * @return
+     */
     public WebElement getSignInButton(){
-        return driver.findElement(By.cssSelector("button.js-signin-button"));
+        return driver.findElement(By.xpath("//button[contains(text(), 'Sign in')]"));
     }
 
+    /**
+     * Get email input
+     * @return
+     */
     public WebElement getSignInEmailField(){
         return driver.findElement(By.name("EMail"));
     }
 
+    /**
+     * Get pass input
+     * @return
+     */
     public WebElement getSignInPasswordField(){
-        return driver.findElement(By.name("Password"));
+        return driver.findElement(By.cssSelector("[data-at-selector='passwordInput']"));
     }
 
+    /**
+     * Get submit input
+     * @return
+     */
     public WebElement getSignInSubmitButton(){
         return driver.findElement(By.cssSelector("[data-at-selector='welcomeSignInBtn']"));
     }
 
+    /**
+     * Get validation message
+     * @return
+     */
     public WebElement getSignInCriticalInvalidEmailOrPassword() {
-        return driver.findElement(By.partialLinkText("Invalid email address or password"));
+        return driver.findElement(By.xpath("//p[contains(text(), 'Invalid email address or password')]"));
     }
 }

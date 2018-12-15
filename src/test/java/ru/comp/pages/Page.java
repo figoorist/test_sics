@@ -13,7 +13,7 @@ public abstract class Page {
 
     protected WebDriver driver;
 
-    /*
+    /**
      * Constructor injecting the WebDriver interface
      * @param webDriver
      */

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="726c0dec-97e5-4900-93d9-b1ba9e4f920f" name="Default Changelist" comment="" />
+    <list default="true" id="726c0dec-97e5-4900-93d9-b1ba9e4f920f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/comp/steps/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/MyKasperskyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/MyKasperskyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/pages/MyKasperskyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/pages/MyKasperskyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageSteps.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,28 +19,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/comp/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="51">
               <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
               <folding>
                 <element signature="e#80#81#0" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/MyKasperskyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            <state relative-caret-position="-73">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/HomePageSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="136">
+                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -39,32 +72,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MyKasperskyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="816">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,11 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -85,14 +110,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="250">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#504#505#0" expanded="true" />
                 <element signature="e#540#541#0" expanded="true" />
                 <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,13 +135,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,14 +164,15 @@
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/SampleTestNgTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/MyKaspersky.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageStep.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/SignInModalPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/MyKasperskyTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/MyKasperskyPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/steps/HomePageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/MyKasperskyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java" />
       </list>
     </option>
   </component>
@@ -169,10 +193,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-20" />
-    <option name="y" value="-4" />
-    <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="x" value="1578" />
+    <option name="y" value="95" />
+    <option name="width" value="1299" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,14 +280,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544831606501" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544880976275" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -307,56 +331,61 @@
       <option name="presentableId" value="Default" />
       <updated>1544820636528</updated>
       <workItem from="1544820638915" duration="668000" />
-      <workItem from="1544821854288" duration="9617000" />
+      <workItem from="1544821854288" duration="9895000" />
+      <workItem from="1544863194358" duration="6774000" />
+      <workItem from="1544877601713" duration="2433000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 01h 15m 35s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 24m 50s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 01h 16m 40s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 25m 21s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 01h 26m 19s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 30m 03s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 01h 32m 21s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 30m 22s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 01h 32m 51s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 41m 13s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 01h 33m 51s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 43m 26s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 02h 45m 25s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 49m 53s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 02h 50m 52s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 50m 39s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 02h 52m 28s.xml">
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 15h 51m 32s.xml">
+      <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_viktor_java_projects_test_sics_src_test_resources_testng_xml - 2018.12.15 at 16h 30m 00s.xml">
       <configuration name="/home/viktor/java_projects/test_sics/src/test/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10285000" />
+    <option name="totallyTimeSpent" value="19770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <frame x="1431" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25338647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18131565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921174" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33023256" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22257054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,12 +395,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.32988048" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.22885571" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -381,21 +411,27 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/SuiteConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageStep.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/SignInModalPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/comp/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="51">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding>
             <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/SuiteConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -406,100 +442,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/MyKasperskyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="-73">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/SignInModalPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/MyKasperskyPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="816">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/MyKasperskyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/pages/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state relative-caret-position="250">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/HomePageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/steps/MyKasperskyPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/comp/TestNgTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
           </folding>
         </state>
       </provider>
